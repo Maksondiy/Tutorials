@@ -1,0 +1,41 @@
+﻿.slider-container {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    list-style-type: none !important;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+
+}
+.slick-trak{
+    margin: 0;
+}
+.container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+.slider {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease;
+
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
